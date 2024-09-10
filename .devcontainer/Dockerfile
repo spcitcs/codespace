@@ -4,12 +4,12 @@ ENV DEBIAN_FRONTEND=noninteractive
 
 COPY ./installer .
 
-RUN base.sh
+RUN bash base.sh
 
 # Bahasa Pemrograman yang digunakan
-RUN python.sh
-RUN dart.sh
-RUN flutter.sh
+RUN bash python.sh
+RUN bash dart.sh
+RUN bash flutter.sh
 
 # Aplikasi tambahan yang digunakan
 
