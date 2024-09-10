@@ -1,0 +1,5 @@
+{
+    "liveshare.languages.allowGuestCommandControl": true,
+    "liveshare.notebooks.allowGuestExecuteCells": true,
+    "liveshare.anonymousGuestApproval": "prompt"
+}

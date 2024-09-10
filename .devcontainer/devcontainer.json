@@ -1,0 +1,21 @@
+{
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"name": "spcitcs-codespace",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"Dart-Code.dart-code",
+				"Dart-Code.flutter",
+                "ms-python.python",
+                "ms-vsliveshare.vsliveshare",
+                "ms-toolsai.jupyter"
+			],
+            "settings": {
+                "python.defaultInterpreterPath": "/usr/bin/python3"
+            }
+		}
+	},
+    "postCreateCommand": "dart --version && python3 --version"
+}
